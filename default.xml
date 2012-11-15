@@ -42,6 +42,8 @@
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="ls" revision="jb" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb" />
+  <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="ls" revision="jb" />
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="ls" revision="jb" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb" />
@@ -52,6 +54,7 @@
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb" />
   <project path="device/samsung/quincy-common" name="android_device_samsung_quincy-common" remote="ls" revision="jb" />
   <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="ls" revision="jb" />
+  <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="ls" revision="jb" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb" />
   <project path="external/aac" name="android_external_aac" remote="cm" revision="jellybean" />
