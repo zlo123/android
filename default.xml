@@ -15,7 +15,6 @@
 
   <default revision="jb-mr0-release"
            remote="aosp"
-           sync-c="true"
            sync-j="7" />
 
   <project path="build" name="android_build" remote="ls" revision="jb">
@@ -76,6 +75,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="android_external_chromium" remote="cm" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
+  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="jellybean" />
   <project path="external/dbus" name="platform/external/dbus" />
@@ -145,6 +145,7 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="android_external_llvm" remote="cm" revision="jellybean" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
