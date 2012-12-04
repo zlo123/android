@@ -21,38 +21,26 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="ls" revision="jb" />
-  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
-  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
+  <project path="bionic" name="android_bionic" remote="cm" revision="jellybean" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="android_dalvik" remote="cm" revision="jellybean" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="ls" revision="jb" />
-  <project path="device/asus/tf700t" name="android_device_asus_tf700t" remote="ls" revision="jb" />
-  <project path="device/asus/tf101" name="android_device_asus_tf101" remote="ls" revision="jb" />
-  <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="ls" revision="jellybean" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ls" revision="jb" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="ls" revision="jb" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="jellybean" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ls" revision="jb" />
   <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="ls" revision="jb" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="ls" revision="jb" />
-  <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="ls" revision="jb" />
-  <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="ls" revision="jb" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb" />
-  <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="ls" revision="jb" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="ls" revision="jb" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="jellybean" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="ls" revision="jb" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="ls" revision="jb" />
-  <project path="device/samsung/quincy-common" name="android_device_samsung_quincy-common" remote="ls" revision="jb" />
-  <project path="device/samsung/quincyatt" name="android_device_samsung_quincyatt" remote="ls" revision="jb" />
-  <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="ls" revision="jb" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="jellybean" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cm" revision="jellybean" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="ls" revision="jb" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="ls" revision="jb" />
   <project path="external/aac" name="android_external_aac" remote="cm" revision="jellybean" />
@@ -223,7 +211,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="jellybean" />
-  <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="jellybean" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
@@ -246,16 +233,14 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="cm" revision="jellybean" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="ls" revision="jb" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" revision="jellybean" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" revision="jellybean" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="jellybean" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="jellybean" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="jellybean" />
-  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="ls" revision="jb" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="jellybean" />
-  <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" revision="jellybean" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" revision="jellybean" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="ls" revision="jb" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="jb" />
@@ -264,7 +249,6 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="ls" revision="jb" />
-  <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="jb" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="jellybean" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" revision="jellybean" />
@@ -288,46 +272,45 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="android_prebuilt" remote="ls" revision="jb" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="cm" revision="jellybean" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/tools" name="android_prebuilts_tools" remote="cm" revision="jellybean" />
+  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="jellybean" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="jellybean" />
-  <project path="system/core" name="android_system_core" remote="ls" revision="jb" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="jellybean" />
+  <project path="system/core" name="android_system_core" remote="cm" revision="jellybean" />
+  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
-  <project path="system/security" name="android_system_security" remote="cm" revision="jellybean" />
+  <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="jellybean" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="jellybean" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="jellybean" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="jellybean" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="jellybean" />
-  <project path="vendor/hp" name="proprietary_vendor_hp" remote="tm" revision="jellybean" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="jellybean" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="jellybean-stable" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="jellybean" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
