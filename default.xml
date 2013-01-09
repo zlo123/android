@@ -19,9 +19,13 @@
   <remote  name="fr"
            fetch="git://github.com/zlo123/" />
 
+  <remote  name="slim"
+           fetch="git://github.com/"
+           review="https://review.slimroms.net:8443/"/>
+
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <project path="build" name="android_build" remote="ls" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -182,7 +186,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="external_skia" remote="ub" revision="jb-mr1" />
+  <project path="external/skia" name="SlimRoms/android_external_skia" remote="slim" revision="jb4.2" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -358,6 +362,9 @@
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ls" revision="jb2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.1" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.1" />
+
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_FileManager" remote="slim" revision="jb4.2" />
+
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
