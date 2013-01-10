@@ -20,7 +20,7 @@
            fetch="git://github.com/UnicornButter/" />
 
   <remote  name="fr"
-           fetch="git://github.com/zlo123/" />
+           fetch="https://github.com/zlo123/" />
 
   <remote  name="slim"
            fetch="git://github.com/"
@@ -30,7 +30,7 @@
            remote="aosp"
            sync-j="7" />
 
-  <project path="build" name="android_build" remote="ls" revision="jb2">
+  <project path="build" name="android_build" remote="fr" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -238,7 +238,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="frameworks_rs" ub" revision="jb-mr1" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="ub" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
